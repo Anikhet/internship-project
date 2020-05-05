@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<style>
 
+      
+.button4 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(184, 20, 20);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(98, 1, 1);
+}
+
+.button4:hover {background-color: #a50b0b}
+
+.button4:active {
+  background-color: #b10c0c;
+  box-shadow: 0 5px rgb(0, 11, 105);
+  transform: translateY(4px);
+}
+.foshit{
+    color:beige;
+    font-size: 30px
+}
+
+
+
+</style>
+
+</head>
+<body  align="center" style="position: relative;top: 200px; background-image: linear-gradient(27deg ,rgb(93, 20, 20) 50%,rgb(134, 23, 23) 50%); ">
+    
+<form action="lol.php" method="POST" >
+<p class="foshit" >Username</p>
+<input placeholder="Enter username" type="text" class="" id="n1"><br><br><br>
+<p class="foshit"> Password</p> 
+<input type="password" placeholder="Enter password" class="" id="p1"><br><br><br><br>
+<input type="submit" class="button4">
+
+
+
+</form>
+
+    
+</body>
+</html>
